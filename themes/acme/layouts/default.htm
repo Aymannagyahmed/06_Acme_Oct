@@ -1,0 +1,29 @@
+==
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Acme - {{this.page.title}}</title>
+        <meta name="description" content="{{this.page.meta_description}}" >
+        <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ 'assets/css/theme.css'|theme }}">
+        {% styles %}
+    </head>
+    <body>
+        <header>
+            {% partial 'site/header' %}
+        </header>
+        <div class="container">
+            {% page %}
+        </div>
+
+        <footer>
+            {% partial 'site/footer' %}
+        </footer>
+
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+    </body>
+
+</html>

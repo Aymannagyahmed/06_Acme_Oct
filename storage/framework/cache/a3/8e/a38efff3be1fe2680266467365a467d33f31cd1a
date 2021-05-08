@@ -1,0 +1,20 @@
+1617156104a:1:{s:9:"about.htm";a:11:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:325:"title = "About"
+url = "/about"
+layout = "default"
+description = "this is about us page"
+is_hidden = 0
+
+[resourcesLinks]
+link1 = "https://www.google.com"
+link2 = "https://www.facebook.com"
+link3 = "https://www.twitter.com"
+==
+<h1>About Us</h1>
+<p>this is about us page</p>
+<hr>
+
+{% component 'resourcesLinks' %}";s:5:"mtime";i:1617155497;s:6:"markup";s:89:"<h1>About Us</h1>
+<p>this is about us page</p>
+<hr>
+
+{% component 'resourcesLinks' %}";s:4:"code";N;s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:11:"description";s:21:"this is about us page";s:9:"is_hidden";s:1:"0";s:14:"resourcesLinks";a:3:{s:5:"link1";s:22:"https://www.google.com";s:5:"link2";s:24:"https://www.facebook.com";s:5:"link3";s:23:"https://www.twitter.com";}}}

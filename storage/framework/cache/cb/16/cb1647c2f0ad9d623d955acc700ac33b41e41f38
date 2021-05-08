@@ -1,0 +1,56 @@
+1617155538a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:858:"==
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Acme - {{this.page.title}}</title>
+        <meta name="description" content="{{this.page.meta_description}}" >
+        <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ 'assets/css/theme.css'|theme }}">
+        {% styles %}
+    </head>
+    <body>
+        <header>
+            {% partial 'site/header' %}
+        </header>
+        <div class="container">
+            {% page %}
+        </div>
+
+        <footer>
+            {% partial 'site/footer' %}
+        </footer>
+
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+    </body>
+
+</html>";s:5:"mtime";i:1617150196;s:6:"markup";s:854:"<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Acme - {{this.page.title}}</title>
+        <meta name="description" content="{{this.page.meta_description}}" >
+        <link rel="stylesheet" href="https://bootswatch.com/4/sandstone/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ 'assets/css/theme.css'|theme }}">
+        {% styles %}
+    </head>
+    <body>
+        <header>
+            {% partial 'site/header' %}
+        </header>
+        <div class="container">
+            {% page %}
+        </div>
+
+        <footer>
+            {% partial 'site/footer' %}
+        </footer>
+
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+    </body>
+
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

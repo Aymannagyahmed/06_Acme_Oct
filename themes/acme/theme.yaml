@@ -1,0 +1,15 @@
+name: Acme
+description: 'its a simple bootswatch theme'
+author: 'Ayman Nagy'
+homepage: 'http://aymanedu.com'
+code: ''
+form:
+  fields:
+    site_name:
+      lable: Site name
+      comment: The global website name
+      default: Acme
+    site_description:
+      lable: Site description
+      comment: The global website description
+      default: This is the default description for this site
