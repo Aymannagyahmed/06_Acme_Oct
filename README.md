@@ -1,3 +1,13 @@
+## Introduction
+
+Business-Listings is a practicing control management system (CMS) using:
+
+- mySQL
+- php
+- **[October CMS](https://octobercms.com/)**
+- **[bootswatch](https://bootswatch.com/)**
+
+
 # Installation wizard for October
 
 The wizard installation is the recommended way to install October for **non-technical users**. It is simpler than the command-line installation and doesn't require any special skills.
@@ -32,3 +42,6 @@ When using Ubuntu, the following command can be run to install all required exte
 sudo apt-get update &&
 sudo apt-get install php php-ctype php-curl php-xml php-fileinfo php-gd php-json php-mbstring php-mysql php-sqlite3 php-zip
 ```
+## License
+
+The MarxManagear is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
